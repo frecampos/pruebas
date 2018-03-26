@@ -28,7 +28,7 @@ namespace ProyectoWindowsForm
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            try
+            /*try
             {
                 ServicioWebJava.WebServiceMYSQLClient WS;
                 WS = new ServicioWebJava.WebServiceMYSQLClient();
@@ -44,8 +44,10 @@ namespace ProyectoWindowsForm
             }
             catch (Exception ex)
             {
-                throw;
-            }
+                
+            }*/
+            FrmMenu frm = new FrmMenu();
+            frm.Show();
         }
 
         private void Form1_Load(object sender, EventArgs e)
